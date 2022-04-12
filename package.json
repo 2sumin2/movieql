@@ -1,0 +1,29 @@
+{
+  "name": "movieql",
+  "version": "1.0.0",
+  "description": "Graphql로 영화 API 만들기",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2sumin2/movieql.git"
+  },
+  "keywords": [
+    "graphql"
+  ],
+  "author": "sumin <lsm001005@naver.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2sumin2/movieql/issues"
+  },
+  "homepage": "https://github.com/2sumin2/movieql#readme",
+  "dependencies": {
+    "@graphql-yoga/node": "^2.1.0",
+    "graphql": "^16.3.0",
+    "node-fetch": "^3.2.3"
+  },
+  "type": "module"
+}
